@@ -14,16 +14,11 @@ const Menu = () => (
     >
         <ul className="actions">
             <li>
-                <button onClick={() => this.handleAddSection()}>Add Section</button>
-                <button onClick={() => this.handleRemoveSection()}>
-                    Remove Section
-                </button>
-                <button onClick={() => this.handleChangeColors()}>
-                    Change background colors
-                </button>
-                <button onClick={() => this.moveSectionDown()}>
-                    Move Section Down
-                </button>
+                <a href='#coverPage'> Cover</a>
+                <a href='#aboutMePage'> About Me</a>
+                <a href='#skillsPage'> Skills </a>
+                <a href='#projectPage'> Projects</a>
+                <a href='#contactPage'> Contact </a>
             </li>
         </ul>
     </div>
@@ -35,22 +30,27 @@ const Home = () => (
         <Menu/>
     <ReactFullpage
         //fullpage options
-        licenseKey = {'YOUR_KEY_HERE'}
+        licenseKey = {' GNU GPL license v3'}
         scrollingSpeed = {1000} /* Options here */
         navigation
-        sectionsColor={["#282c34", "#ff5f45", "#0798ec",'#000000']}
-        anchors={['firstPage', 'secondPage', 'thirdPage','fourthPage']}
+        sectionsColor={["#282c34", "#ff5f45", "#0798ec",'#000000','#000000']}
+        anchors={['coverPage', 'aboutMePage', 'skillsPage', 'projectPage','contactPage']}
+        navigationPosition = 'top'
         render={({ state, fullpageApi }) => {
             return (
+
                 <ReactFullpage.Wrapper>
                     <div className="section">
-                        <h3>메인 페이지</h3>
-                        {/*<button onClick={() => fullpageApi.moveSectionDown()}>*/}
-                        {/*    Click me to move down*/}
-                        {/*</button>*/}
+                        <h3>coverPage</h3>
                     </div>
+
                     <div className="section">
-                        <h3>자기 소개</h3>
+                        <h3>aboutMePage</h3>
+                    </div>
+
+                    <div className="section">
+                        <h3>skillsPage</h3>
+
                     </div>
 
                     <div className="section">
@@ -61,8 +61,9 @@ const Home = () => (
                             <h3>프로젝트 2</h3>
                         </div>
                     </div>
+
                     <div className="section">
-                        <h3>연락처</h3>
+                        <h3>contactPage</h3>
                     </div>
 
                 </ReactFullpage.Wrapper>
