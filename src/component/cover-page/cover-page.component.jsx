@@ -1,13 +1,17 @@
 
 import CoverImage from '../../assets/coverpage-laptop.jpg'
+import ProgramImage from '../../assets/programming.png'
 import './cover-page.styles.css'
+import KeyBoard from '../../assets/key-board.jpg'
 import {Fragment} from "react";
 const CoverPage = () => {
     return (
-        <Fragment>
-        <img className='cover-image' src={CoverImage}/>
-
-        </Fragment>
+        // <Fragment>
+            <article className='article'>
+                <img className='cover-image' src={KeyBoard}/>
+                <h1 className='header font-link'>개발자 땡땡땡 포트폴리오입니다.</h1>
+            </article>
+        // {/*</Fragment>*/}
     )
 };
 

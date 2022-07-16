@@ -37,6 +37,8 @@ const Home = () => (
             sectionsColor={["#808080", "#808080", "#808080", '#808080', '#808080']}
             anchors={['coverPage', 'aboutMePage', 'skillsPage', 'projectPage', 'contactPage']}
             navigationPosition='top'
+
+            slidesNavigation
             render={({state, fullpageApi}) => {
                 return (
                     <ReactFullpage.Wrapper>
