@@ -2,6 +2,8 @@ import React, {Fragment} from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import './home.styles.css'
 
+import CoverPage from "../../component/cover-page/cover-page.component";
+
 const Menu = () => (
     <div
         className="menu"
@@ -11,15 +13,16 @@ const Menu = () => (
             zIndex: 100,
         }}
     >
-        <ul className="actions menu-3">
 
-            <li><a href='#coverPage' className='font-link'> Cover</a></li>
+            <ul className="actions menu">
+                <li><a href='#coverPage' className='font-link'> Cover</a></li>
 
-            <li><a href='#aboutMePage' className='font-link'> About Me</a></li>
-            <li><a href='#skillsPage' className='font-link'> Skills </a></li>
-            <li><a href='#projectPage' className='font-link'> Projects</a></li>
-            <li><a href='#contactPage' className='font-link'> Contact </a></li>
-        </ul>
+                <li><a href='#aboutMePage' className='font-link'> About Me</a></li>
+                <li><a href='#skillsPage' className='font-link'> Skills </a></li>
+                <li><a href='#projectPage' className='font-link'> Projects</a></li>
+                <li><a href='#contactPage' className='font-link'> Contact </a></li>
+            </ul>
+
     </div>
 );
 
@@ -38,7 +41,7 @@ const Home = () => (
                 return (
                     <ReactFullpage.Wrapper>
                         <div className="section">
-                            <h3>coverPage</h3>
+                            <CoverPage/>
                         </div>
                         <div className="section">
                             <h3>aboutMePage</h3>
