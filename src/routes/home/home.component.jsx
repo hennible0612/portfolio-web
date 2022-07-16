@@ -23,7 +23,6 @@ const Menu = () => (
     </div>
 );
 
-
 const Home = () => (
     <Fragment>
         <Menu/>
@@ -32,26 +31,21 @@ const Home = () => (
             licenseKey={' GNU GPL license v3'}
             scrollingSpeed={1000} /* Options here */
             navigation
-            sectionsColor={["#282c34", "#ff5f45", "#0798ec", '#000000', '#000000']}
+            sectionsColor={["#808080", "#808080", "#808080", '#808080', '#808080']}
             anchors={['coverPage', 'aboutMePage', 'skillsPage', 'projectPage', 'contactPage']}
             navigationPosition='top'
             render={({state, fullpageApi}) => {
                 return (
-
                     <ReactFullpage.Wrapper>
                         <div className="section">
                             <h3>coverPage</h3>
                         </div>
-
                         <div className="section">
                             <h3>aboutMePage</h3>
                         </div>
-
                         <div className="section">
                             <h3>skillsPage</h3>
-
                         </div>
-
                         <div className="section">
                             <div className="slide">
                                 <h3>프로젝트 1</h3>
@@ -60,11 +54,9 @@ const Home = () => (
                                 <h3>프로젝트 2</h3>
                             </div>
                         </div>
-
                         <div className="section">
                             <h3>contactPage</h3>
                         </div>
-
                     </ReactFullpage.Wrapper>
                 );
             }}
