@@ -3,7 +3,8 @@
     width: 100%;
     object-fit: fill;
     opacity: 0.3;
-    filter: grayscale(50%);
+    filter: grayscale(40%);
+    /*filter: brightness(70%);*/
 }
 
 

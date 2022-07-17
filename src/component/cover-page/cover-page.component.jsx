@@ -3,7 +3,6 @@ import CoverImage from '../../assets/coverpage-laptop.jpg'
 import ProgramImage from '../../assets/programming.png'
 import './cover-page.styles.css'
 import KeyBoard from '../../assets/key-board.jpg'
-import {Fragment} from "react";
 const CoverPage = () => {
     return (
         // <Fragment>

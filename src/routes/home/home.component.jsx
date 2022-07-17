@@ -3,7 +3,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import './home.styles.css'
 
 import CoverPage from "../../component/cover-page/cover-page.component";
-
+import AboutMe from "../../component/about-me/about-me.component";
 const Menu = () => (
     <div
         className="menu"
@@ -46,7 +46,7 @@ const Home = () => (
                             <CoverPage/>
                         </div>
                         <div className="section">
-                            <h3>aboutMePage</h3>
+                            <AboutMe />
                         </div>
                         <div className="section">
                             <h3>skillsPage</h3>
