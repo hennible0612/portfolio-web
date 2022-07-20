@@ -22,17 +22,34 @@
         bottom: 0;
         left: 0;
         right: 0;
-        height: 50%;
-        width: 50%;
+        height: 30vw;
+        width: 65vw;
         margin: auto;
-        padding: 20px;
+        padding: 1vw;
         opacity: 80%;
         background-color: white;
+
+        overflow:scroll;
+
         .about-me-context{
-            font-size:1.3vw;
+            padding: 0.5rem;
+            font-size: 1.3vw;
+            font-family: 'Sunflower';
+
+
+        }
+        .about-me-gradient-text {
+            background: linear-gradient(#292931 0%, #FF0000 100%);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .about-me-context-header{
+            font-size:3.5vw;
+            text-shadow: 2px 2px 5px black;
+            font-family: 'Dongle';
         }
     }
-    
+
 }
 
 
