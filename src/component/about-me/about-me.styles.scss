@@ -22,8 +22,10 @@
         bottom: 0;
         left: 0;
         right: 0;
-        height: 30vw;
-        width: 65vw;
+        //height: 30vw;
+        //width: 65vw;
+        height: 40%;
+        width: 80%;
         margin: auto;
         padding: 1vw;
         opacity: 80%;
@@ -33,7 +35,7 @@
 
         .about-me-context{
             padding: 0.5rem;
-            font-size: 1.3vw;
+            font-size: 1.6vh;
             font-family: 'Sunflower';
 
 
@@ -44,7 +46,7 @@
             color: transparent;
         }
         .about-me-context-header{
-            font-size:3.5vw;
+            font-size:3.5vh;
             text-shadow: 2px 2px 5px black;
             font-family: 'Dongle';
         }
