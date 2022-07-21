@@ -4,6 +4,7 @@ import './home.styles.css'
 
 import CoverPage from "../../component/cover-page/cover-page.component";
 import AboutMe from "../../component/about-me/about-me.component";
+import Project from "../../component/project/project.component";
 const Menu = () => (
     <div
         className="menu"
@@ -53,7 +54,7 @@ const Home = () => (
                         </div>
                         <div className="section">
                             <div className="slide">
-                                <h3>프로젝트 1</h3>
+                                <Project />
                             </div>
                             <div className="slide">
                                 <h3>프로젝트 2</h3>
