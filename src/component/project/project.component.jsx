@@ -22,6 +22,7 @@ const Project = () => {
             <div className='project-container'>
                 <div className='project-img-link-container'>
                     <img className='project-img' src={home}/>
+
                     <div className='link-div'>
                         <GitHubIcon className='shopping-icon'/>
                         <WebIcon className='shopping-icon'/>
