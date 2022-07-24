@@ -17,7 +17,7 @@
     //height: 30vw;
     //width: 65vw;
     height: 50%;
-    width: 65%;
+    width: 45%;
     margin: auto;
     padding: 1vw;
     opacity: 80%;
@@ -27,14 +27,18 @@
 
     .project-img-link-container {
       height: 100%;
-      width: 100%;
+      width: auto;
+      .image-div {
+        height: 40%;
 
-      .project-img {
-        height: 50%;
-        width: 80%;
-        object-fit: fill;
+        .project-img {
 
+          height: 100%;
+          width: 100%;
+
+        }
       }
+
 
       .link-div {
         width: 100%;

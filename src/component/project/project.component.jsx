@@ -21,7 +21,11 @@ const Project = () => {
         <article className='article '>
             <div className='project-container'>
                 <div className='project-img-link-container'>
-                    <img className='project-img' src={home}/>
+
+                    <div className='image-div'>
+                        <img className='project-img' src={home}/>
+
+                    </div>
 
                     <div className='link-div'>
                         <GitHubIcon className='shopping-icon'/>
