@@ -19,26 +19,29 @@ const Project = () => {
     return (
 
         <article className='article '>
-            <div className='project-container'>
-                <div className='project-img-link-container'>
 
-                    <div className='image-div'>
-                        <img className='project-img' src={home}/>
+            {/*<img src={home}/>*/}
 
-                    </div>
+            {/*<div className='project-container'>*/}
+                {/*<div className='project-img-link-container'>*/}
 
-                    <div className='link-div'>
-                        <GitHubIcon className='shopping-icon'/>
-                        <WebIcon className='shopping-icon'/>
+                {/*    <div className='image-div'>*/}
+                {/*        <img className='project-img' src={home}/>*/}
 
-                    </div>
+                {/*    </div>*/}
 
-                </div>
-            </div>
+                {/*    <div className='link-div'>*/}
+                {/*        <GitHubIcon className='shopping-icon'/>*/}
+                {/*        <WebIcon className='shopping-icon'/>*/}
 
-            <div className='info-div'>
-                2
-            </div>
+                {/*    </div>*/}
+
+                {/*</div>*/}
+            {/*</div>*/}
+
+            {/*<div className='info-div'>*/}
+            {/*    2*/}
+            {/*</div>*/}
 
 
         </article>

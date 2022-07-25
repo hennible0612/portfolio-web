@@ -25,47 +25,45 @@
     overflow: scroll;
 
 
-    .project-img-link-container {
-      height: 100%;
-      width: auto;
-      .image-div {
-        height: 40%;
+    //.project-img-link-container {
+    //  height: 100%;
+    //  width: auto;
+    //  .image-div {
+    //    height: 40%;
+    //
+    //    .project-img {
+    //
+    //      height: 100%;
+    //      width: 100%;
+    //
+    //    }
+    //  }
+    //  .link-div {
+    //    width: 100%;
+    //    height: 10%;
+    //
+    //    position: relative;
+    //    display: flex;
+    //    align-items: center;
+    //    justify-content: space-evenly;
+    //    cursor: pointer;
+    //
+    //    .shopping-icon {
+    //
+    //      width: 2.5vw;
+    //      height: 2.5vw;
+    //    }
+    //
+    //  }
+    //
+    //
+    //  .info-div {
+    //    width: 50%;
+    //    height: 100%;
+    //    float: right;
+    //    background-color: white;
+    //  }
 
-        .project-img {
-
-          height: 100%;
-          width: 100%;
-
-        }
-      }
-
-
-      .link-div {
-        width: 100%;
-        height: 10%;
-
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        cursor: pointer;
-
-        .shopping-icon {
-
-          width: 2.5vw;
-          height: 2.5vw;
-        }
-
-      }
-
-
-      .info-div {
-        width: 50%;
-        height: 100%;
-        float: right;
-        background-color: white;
-      }
-
-    }
+    //}
   }
 }
