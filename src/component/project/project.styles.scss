@@ -14,56 +14,96 @@
     bottom: 0;
     left: 0;
     right: 0;
-    //height: 30vw;
-    //width: 65vw;
+
     height: 50%;
     width: 45%;
     margin: auto;
     padding: 1vw;
     opacity: 80%;
-    background-color: whitesmoke;
+    background-color: #eff4ff;
     overflow: scroll;
 
+    .project-img-link-info-container {
+      height: 100%;
+      width: auto;
 
-    //.project-img-link-container {
-    //  height: 100%;
-    //  width: auto;
-    //  .image-div {
-    //    height: 40%;
-    //
-    //    .project-img {
-    //
-    //      height: 100%;
-    //      width: 100%;
-    //
-    //    }
-    //  }
-    //  .link-div {
-    //    width: 100%;
-    //    height: 10%;
-    //
-    //    position: relative;
-    //    display: flex;
-    //    align-items: center;
-    //    justify-content: space-evenly;
-    //    cursor: pointer;
-    //
-    //    .shopping-icon {
-    //
-    //      width: 2.5vw;
-    //      height: 2.5vw;
-    //    }
-    //
-    //  }
-    //
-    //
-    //  .info-div {
-    //    width: 50%;
-    //    height: 100%;
-    //    float: right;
-    //    background-color: white;
-    //  }
+      .image-div {
+        height: 50%;
+        .project-img {
+          box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .2);
+          border-radius: 20px;
+          height: 100%;
+          width: 50%;
+        }
+      }
 
-    //}
+      .link-div {
+        width: 100%;
+        height: 10%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+
+        .shopping-icon {
+          width: 10%;
+          height: 50%;
+        }
+
+      }
+
+      .skill-div {
+        background-color: lightsteelblue;
+        border-radius: 3px;
+
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        display: flex;
+        height: 7%;
+
+        .skills {
+          font-family: 'Edu NSW ACT Foundation';
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+          border-radius: 3px;
+          font-size: 0.7vw;
+          background-color: white;
+          padding: 2px;
+        }
+      }
+
+      .project-info-div {
+
+        height: 33%;
+
+        .project-name {
+          font-family: 'Jua';
+          font-size: 2vh;
+        }
+
+        .dot {
+          font-weight: bold;
+        }
+
+        .project-info {
+          font-size: 14px;
+
+          text-align: left;
+        }
+      }
+
+
+      .info-div {
+        width: 50%;
+        height: 100%;
+        float: right;
+        background-color: white;
+      }
+
+    }
   }
+
 }
+
+
