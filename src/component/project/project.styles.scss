@@ -44,11 +44,12 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        cursor: pointer;
 
         .shopping-icon {
           width: 10%;
           height: 50%;
+          cursor: pointer;
+
         }
 
       }

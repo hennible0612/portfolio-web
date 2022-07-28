@@ -5,6 +5,8 @@ import './home.styles.css'
 import CoverPage from "../../component/cover-page/cover-page.component";
 import AboutMe from "../../component/about-me/about-me.component";
 import Project from "../../component/project/project.component";
+import ContactPage from "../../component/contact/contact.component";
+
 const Menu = () => (
     <div
         className="menu"
@@ -61,7 +63,8 @@ const Home = () => (
                             </div>
                         </div>
                         <div className="section">
-                            <h3>contactPage</h3>
+
+                            <ContactPage />
                         </div>
                     </ReactFullpage.Wrapper>
                 );
