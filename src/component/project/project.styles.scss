@@ -34,22 +34,38 @@
       height: 100%;
       background-color: red;
       display: flex;
+
+      @media only screen and (max-width: 768px) {
+        display: block;
+
+      }
       .image-link-container {
         width: 50%;
         height: 100%;
         background-color: orange;
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+          height: 50%;
+
+        }
         .image-item {
           width: 100%;
           height: 80%;
           background-color: blue;
+          @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 80%;
 
+          }
         }
         .link-item {
           width: 100%;
           height: 20%;
           background-color: pink;
           @media only screen and (max-width: 768px) {
-            background-color: #1b2735;
+            width: 100%;
+            height: 20%;
+
           }
         }
       }
@@ -57,11 +73,22 @@
         width: 50%;
         height: 100%;
         background-color: black;
+
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+          height: 50%;
+
+        }
         .summery-item {
           display: block;
           width: 100%;
           height: 100%;
           background-color: purple;
+          @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 100%;
+
+          }
         }
       }
 
