@@ -14,99 +14,84 @@
     bottom: 0;
     left: 0;
     right: 0;
-
-    height: 500px;
-    width: 45%;
+    height: 800px;
+    width: 80%;
     margin: auto;
     padding: 1vw;
     opacity: 80%;
     background-color: #eff4ff;
-    overflow: scroll;
+    display: flex;
+    flex-direction: column;
 
-    .project-img-link-info-container {
+    .project-title-container {
+      height: 10%;
+      width: 100%;
+      background-color: white;
+    }
+
+    .project-info-container{
+      width: 100%;
       height: 100%;
-      width: auto;
-
-
-      .project-img {
-        box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .2);
-        border-radius: 20px;
-        height: 50%;
-        width: 50%;
-        margin: auto;
-
-      }
-
-      .link-div {
-        width: 100%;
-        height: 10%;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-
-        .shopping-icon {
-          width: 10%;
-          height: 50%;
-          cursor: pointer;
-
-        }
-
-      }
-
-      .skill-div {
-        background-color: lightsteelblue;
-        border-radius: 3px;
-
-        align-items: center;
-        justify-content: space-evenly;
-        position: relative;
-        display: flex;
-        height: 7%;
-
-        .skills {
-          font-family: 'Edu NSW ACT Foundation';
-          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
-          border-radius: 3px;
-          font-size: 0.7vw;
-          background-color: white;
-          padding: 2px;
-        }
-      }
-
-      .project-info-div {
-
-        height: 33vw;
-
-        .project-name {
-          letter-spacing: 2px;
-          font-family: 'Jua';
-          font-size: 2vh;
-        }
-
-        .dot {
-          font-weight: bold;
-        }
-
-        .project-info {
-          font-size: 1.2vmin;
-          font-size: 1 max;
-          overflow-block: auto;
-          text-align: left;
-        }
-      }
-
-
-      .info-div {
+      background-color: red;
+      display: flex;
+      .image-link-container {
         width: 50%;
         height: 100%;
-        float: right;
-        background-color: white;
+        background-color: orange;
+        .image-item {
+          width: 100%;
+          height: 80%;
+          background-color: blue;
+
+        }
+        .link-item {
+          width: 100%;
+          height: 20%;
+          background-color: pink;
+          @media only screen and (max-width: 768px) {
+            background-color: #1b2735;
+          }
+        }
+      }
+      .project-summery-container {
+        width: 50%;
+        height: 100%;
+        background-color: black;
+        .summery-item {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-color: purple;
+        }
       }
 
     }
+
   }
 
 }
 
-
+//
+///*1200 992 768 576 기준으로 사용*/
+//@media screen and (max-width: 1200px){
+//  .main-title {
+//    font-size: 30px;
+//
+//  }
+//  .nav-item {
+//    font-size: 12px;
+//
+//  }
+//}
+//@media screen and (max-width: 768px){
+//  .main-title {
+//    font-size: 20px;
+//
+//  }
+//}
+//@media screen and (max-width: 576px){
+//  .main-title {
+//    font-size: 10px;
+//
+//  }
+//}

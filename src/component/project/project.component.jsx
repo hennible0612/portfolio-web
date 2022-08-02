@@ -21,47 +21,25 @@ const Project = () => {
 
         <article className='article '>
 
-
             <div className='project-container'>
-                <div className='project-img-link-info-container'>
+                <div className='project-title-container'>
+                    something
+                </div>
 
-                    <img className='project-img' src={home}/>
+                <div className='project-info-container'>
+                    <div className="image-link-container">
+                        <div className="image-item">
 
-                    <div className='link-div'>
-                        <GitHubIcon onClick={openGithub} className='shopping-icon'/>
-                        <WebIcon className='shopping-icon'/>
-
+                        </div>
+                        <div className="link-item">
+                        </div>
                     </div>
-                    <div className='skill-div'>
-                        <text className='skills'>
-                            DJANGO
-                        </text>
-                        <text className='skills'>
-                            HTML/CSS/JS
-                        </text>
-                        <text className='skills'>
-                            NGINX GUNICORN
-                        </text>
-                        <text className='skills'>
-                            AMAZON LIGHTSAIL
-                        </text>
-                    </div>
-
-                    <div className='project-info-div'>
-                        <text className='project-name'>쇼핑몰</text>
-                        <div className='project-info'>
-                            <p>처음으로 만든 프로젝트입니다. 프론트엔드 부터 백엔드까지의 경험을 하고 싶어서 쇼핑몰을 선택했습니다.</p>
-                            <text><span className='dot'>&#183;</span> Iamport, sweettracker, daum address api 등을 사용하여 결제
-                                주소 택배의 위치 기능을
-                                구현했습니다.
-                            </text>
-                            <br/>
-                            <text><span className='dot'>&#183;</span> django-allauth 를 사용하여 sns 로그인 구현</text>
-                            <br/>
-                            <text><span className='dot'>&#183;</span> Amazon Lightsail, Ngnix, Gunicorn을 사용하여 배포</text>
+                    <div className="project-summery-container">
+                        <div className="summery-item">
                         </div>
                     </div>
                 </div>
+
             </div>
         </article>
     );
