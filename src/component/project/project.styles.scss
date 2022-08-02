@@ -15,7 +15,7 @@
     left: 0;
     right: 0;
 
-    height: 50%;
+    height: 500px;
     width: 45%;
     margin: auto;
     padding: 1vw;
@@ -27,14 +27,14 @@
       height: 100%;
       width: auto;
 
-      .image-div {
+
+      .project-img {
+        box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .2);
+        border-radius: 20px;
         height: 50%;
-        .project-img {
-          box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .2);
-          border-radius: 20px;
-          height: 100%;
-          width: 50%;
-        }
+        width: 50%;
+        margin: auto;
+
       }
 
       .link-div {
@@ -76,9 +76,10 @@
 
       .project-info-div {
 
-        height: 33%;
+        height: 33vw;
 
         .project-name {
+          letter-spacing: 2px;
           font-family: 'Jua';
           font-size: 2vh;
         }
@@ -88,8 +89,9 @@
         }
 
         .project-info {
-          font-size: 14px;
-
+          font-size: 1.2vmin;
+          font-size: 1 max;
+          overflow-block: auto;
           text-align: left;
         }
       }

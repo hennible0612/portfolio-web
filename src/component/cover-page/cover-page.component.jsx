@@ -8,7 +8,7 @@ const CoverPage = () => {
         // <Fragment>
             <article className='article'>
                 <img className='cover-image' src={KeyBoard}/>
-                <h1 className='header font-link'>개발자 땡땡땡 포트폴리오입니다.</h1>
+                <h1 className='header font-link'> 홍성우 포트폴리오입니다.</h1>
             </article>
         // {/*</Fragment>*/}
     )
