@@ -36,7 +36,10 @@
             font-size: 1.6vh;
             font-family: 'Sunflower';
 
+            @media only screen and (max-width: 768px) {
 
+                font-size: 16px;
+            }
         }
         .about-me-gradient-text {
             background: linear-gradient(#f12711 0%, #f5af19 100%);

@@ -5,6 +5,10 @@ import login from '../../assets/mangoTang/로그인.png'
 import cart from '../../assets/mangoTang/장바구니.png'
 import homee from '../../assets/mangoTang/홈.png'
 
+
+import {ReactComponent as Check} from "../../assets/check-solid.svg";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import home from '../../assets/mangoTang/home_monitor.png'
 import {ReactComponent as GitHubIcon} from "../../assets/github.svg";
 import {ReactComponent as WebIcon} from "../../assets/web.svg";
@@ -23,7 +27,7 @@ const Project = () => {
 
             <div className='project-container'>
                 <div className='project-title-container'>
-                    <text><b>망고땡 쇼핑몰</b></text>
+                    <text><b>망고땡 쇼핑몰 (1명)</b></text>
                 </div>
 
                 <div className='project-info-container'>
@@ -58,18 +62,23 @@ const Project = () => {
                                 <br></br><br></br>
                                 <text>Framework는 Django를 사용하여 MVT 모델을 익혔습니다. 또한 자바스크립트에 익숙해지고자 바닐라 자바스크립트를 사용했습니다.
                                 </text>
-                                <text>
+                                <p>
                                     Iamport api를 사용하여 결제, 환불 기능을 구현하였고, sweettracker api를 사용하여 실시간 택배 추적 그리고
                                     daum address api 를 사용하여 주소를 입력받았습니다.
-                                </text>
-                                <text>
+                                </p>
+                                <p>
                                     Django-allauth를 사용하여 네이버, 구글, 카카오 sns 회원가입, 로그인 기능을 구현했습니다.
-                                </text>
-                                <text>
-                                    mazon Lightsail, Ngnix, Gunicorn을 사용하여 배포하였습니다.
-                                </text>
-                                <hr></hr>
-                                <text> </text>
+                                </p>
+                                <p>
+                                    Amazon Lightsail, Ngnix, Gunicorn을 사용하여 배포하였습니다.
+                                </p>
+                                <hr className="border"></hr>
+
+                                <p><Check className="check-icon"/><b> 주요기능:</b> 회원가입, 상품구매, 결제/환불, 택배 위치 확인</p>
+                                <p><Check className="check-icon"/><b> 역할:</b> 프론트엔드 & 백엔드</p>
+                                <p><Check className="check-icon"/><b> 기간:</b> 2021.11 ~ 2022.03</p>
+
+
 
                             </div>
                         </div>
