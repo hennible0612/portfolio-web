@@ -27,6 +27,9 @@
       height: 10%;
       width: 100%;
       background-color: white;
+      font-size: 50px;
+      font-family: Dongle
+
     }
 
     .project-info-container{
@@ -52,21 +55,55 @@
           width: 100%;
           height: 80%;
           background-color: blue;
+          position: relative;
+
           @media only screen and (max-width: 768px) {
             width: 100%;
             height: 80%;
+          }
+          .project-img {
+            box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .2);
+            border-radius: 20px;
+            height: 60%;
+            width: 80%;
+            max-width: 500px;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: white;
 
           }
+
         }
         .link-item {
           width: 100%;
           height: 20%;
           background-color: pink;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+
+
           @media only screen and (max-width: 768px) {
             width: 100%;
             height: 20%;
+          }
+
+          .shopping-icon {
+            width: 15%;
+            height: 70%;
+            max-width: 70px;
+            max-height:  65px;
+            cursor: pointer;
 
           }
+
+
         }
       }
       .project-summery-container {
@@ -79,14 +116,43 @@
           height: 50%;
 
         }
+        .skill-item {
+          width: 100%;
+          height: 15%;
+          background-color: #61dafb;
+
+          align-items: center;
+          justify-content: space-evenly;
+          position: relative;
+          display: flex;
+
+          .skills {
+            font-family: 'Edu NSW ACT Foundation';
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+            border-radius: 3px;
+            font-size: 1vw;
+            background-color: white;
+            padding: 2.5px;
+          }
+          @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 15%;
+
+          }
+        }
         .summery-item {
           display: block;
           width: 100%;
-          height: 100%;
+          height: 85%;
           background-color: purple;
+          .summery {
+            font-size: 1.2vmin;
+            //overflow-block: auto;
+            text-align: left;
+          }
           @media only screen and (max-width: 768px) {
             width: 100%;
-            height: 100%;
+            height: 85%;
 
           }
         }
