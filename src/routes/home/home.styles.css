@@ -5,6 +5,8 @@
     align-items: center;
     list-style: none;
     margin-top: 10px;
+
+
 }
 
 .menu li {
@@ -71,3 +73,35 @@
     font-family: 'Edu SA Beginner', cursive;
 }
 
+@media only screen and (max-width: 768px) {
+
+    .menu {
+        font-size: 13px;
+        margin-left: 6%;
+
+    }
+    .menu li {
+        width: 100%;
+        justify-content: space-evenly;
+
+    }
+
+    .fp-controlArrow.fp-prev {
+        border-width: 35px 20px 35px 0;
+
+    }
+    .fp-controlArrow.fp-next {
+        border-width: 35px 0 35px 20px;
+
+    }
+}
+@media only screen and (max-width: 576px) {
+    .fp-controlArrow.fp-prev {
+        border-width: 35px 13px 35px 0;
+
+    }
+    .fp-controlArrow.fp-next {
+        border-width: 35px 0 35px 13px;
+
+    }
+}

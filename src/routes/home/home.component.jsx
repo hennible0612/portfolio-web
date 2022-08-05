@@ -6,6 +6,7 @@ import CoverPage from "../../component/cover-page/cover-page.component";
 import AboutMe from "../../component/about-me/about-me.component";
 import Project from "../../component/project/project.component";
 import ContactPage from "../../component/contact/contact.component";
+import Skills from "../../component/skills/skills.component";
 
 const Menu = () => (
     <div
@@ -21,7 +22,7 @@ const Menu = () => (
                 <li><a href='#coverPage' className='font-link'> Cover</a></li>
 
                 <li><a href='#aboutMePage' className='font-link'> About Me</a></li>
-                <li><a href='#skillsPage' className='font-link'> Skills </a></li>
+                {/*<li><a href='#skillsPage' className='font-link'> Skills </a></li>*/}
                 <li><a href='#projectPage' className='font-link'> Projects</a></li>
                 <li><a href='#contactPage' className='font-link'> Contact </a></li>
             </ul>
@@ -37,8 +38,9 @@ const Home = () => (
             licenseKey={' GNU GPL license v3'}
             scrollingSpeed={1000} /* Options here */
             navigation
-            sectionsColor={["#808080", "#808080", "#808080", '#808080', '#808080']}
-            anchors={['coverPage', 'aboutMePage', 'skillsPage', 'projectPage', 'contactPage']}
+            sectionsColor={["#808080", "#808080", '#808080', '#808080']}
+            // anchors={['coverPage', 'aboutMePage', 'skillsPage', 'projectPage', 'contactPage']}
+            anchors={['coverPage', 'aboutMePage', 'projectPage', 'contactPage']}
             navigationPosition='top'
 
             slidesNavigation
@@ -51,9 +53,9 @@ const Home = () => (
                         <div className="section">
                             <AboutMe />
                         </div>
-                        <div className="section">
-                            <h3>skillsPage</h3>
-                        </div>
+                        {/*<div className="section">*/}
+                        {/*    <Skills />*/}
+                        {/*</div>*/}
                         <div className="section">
                             <div className="slide">
                                 <Project />
