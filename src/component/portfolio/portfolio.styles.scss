@@ -1,0 +1,183 @@
+.article {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+
+  .project-container {
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    padding: 1vw;
+    opacity: 80%;
+    max-width: 1300px;
+    background-color: #f5efff;
+    display: flex;
+    flex-direction: column;
+
+    .project-title-container {
+      height: 10%;
+      width: 100%;
+      background-color: #eff4ff;
+      font-size: 50px;
+      font-family: Dongle
+
+    }
+
+    .project-info-container{
+      width: 100%;
+      height: 100%;
+      display: flex;
+
+      @media only screen and (max-width: 768px) {
+        display: block;
+
+      }
+      .image-link-container {
+        width: 50%;
+        height: 100%;
+        background-color: #f5efff;
+        border-radius: 15px;
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+          height: 50%;
+
+        }
+        .image-item {
+          width: 100%;
+          height: 80%;
+          //background-color: blue;
+          position: relative;
+
+          @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 80%;
+          }
+          .project-img {
+            box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .2);
+            border-radius: 20px;
+            height: 60%;
+            width: 80%;
+            max-width: 500px;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: white;
+
+          }
+
+        }
+        .link-item {
+          width: 100%;
+          height: 20%;
+          //background-color: pink;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+
+
+          @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 20%;
+          }
+
+          .shopping-icon {
+            width: 15%;
+            height: 70%;
+            max-width: 70px;
+            max-height:  65px;
+            cursor: pointer;
+
+          }
+
+
+        }
+      }
+      .project-summery-container {
+        width: 50%;
+        height: 100%;
+
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+          height: 50%;
+
+        }
+        .skill-item {
+          width: 100%;
+          height: 15%;
+          background-color: #f5efff;
+          border-radius: 15px;
+          align-items: center;
+          justify-content: space-evenly;
+          position: relative;
+          display: flex;
+
+          .skills {
+            font-family: 'Edu NSW ACT Foundation';
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+            border-radius: 3px;
+            font-size: 1vw;
+            background-color: white;
+            padding: 2.5px;
+
+          }
+          @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 15%;
+
+          }
+        }
+        .summery-item {
+          display: block;
+          width: 100%;
+          height: 85%;
+          .summery {
+            font-size: 15px;
+            text-align: left;
+            padding: 10px;
+            @media only screen and (max-width: 768px) {
+              font-size: 11px;
+
+
+            }
+            .border {
+              width: 90%;
+              margin-top: 15px;
+
+              margin-bottom: 15px;
+            }
+            .check-icon {
+              width: 12px;
+              height: 12px;
+            }
+          }
+          @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 85%;
+
+          }
+        }
+      }
+
+    }
+
+  }
+
+}
+
+//
+///*1200 992 768 576 기준으로 사용*/

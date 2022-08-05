@@ -7,6 +7,7 @@ import AboutMe from "../../component/about-me/about-me.component";
 import Project from "../../component/project/project.component";
 import ContactPage from "../../component/contact/contact.component";
 import Skills from "../../component/skills/skills.component";
+import Portfolio from "../../component/portfolio/portfolio.component";
 
 const Menu = () => (
     <div
@@ -61,7 +62,7 @@ const Home = () => (
                                 <Project />
                             </div>
                             <div className="slide">
-                                <h3>프로젝트 2</h3>
+                                <Portfolio />
                             </div>
                         </div>
                         <div className="section">
