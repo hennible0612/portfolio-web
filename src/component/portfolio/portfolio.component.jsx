@@ -46,9 +46,6 @@ const Portfolio = () => {
 
                                 <p><Check className="check-icon"/><b> 주요기능:</b> 자기 소개, 포트폴리오 소개</p>
                                 <p><Check className="check-icon"/><b> 기간:</b> 2022.07</p>
-
-
-
                             </div>
                         </div>
                     </div>
