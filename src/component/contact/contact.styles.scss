@@ -15,19 +15,33 @@
         right: 0;
         background-color: white;
         height: 150px;
-        width: 400px;
+        width: 550px;
         margin: auto;
         padding: 1vw;
         overflow: scroll;
         display: flex;
         justify-content: center;
-        .icon {
-            padding-top: 10px;
-            padding: 15px;
-            cursor: pointer;
+        @media only screen and (max-width: 768px) {
+            display: block;
+            width: 330px;
 
+        }
+        .word{
+            align-items: center;
+            margin: auto;
+            font-size: 25px;
+        }
+        .icon {
+            cursor: pointer;
+            margin: auto;
             height: 100px;
             width: 100px;
+            @media only screen and (max-width: 768px) {
+                width: 400px;
+                height: 100px;
+                padding: 10px;
+                width: 60px;
+            }
         }
 
     }

@@ -5,8 +5,7 @@ import {ReactComponent as Check} from "../../assets/check-solid.svg";
 import './portfolio.styles.scss'
 
 const Portfolio = () => {
-    const url = "https://github.com/hennible0612/portfolio-web"
-    const openGithub = () => {
+    const openUrl = (url) => {
         window.open(url, '_blank').focus();
     }
 
@@ -25,8 +24,8 @@ const Portfolio = () => {
                             <img className='project-img' src={home}/>
                         </div>
                         <div className="link-item">
-                            <GitHubIcon onClick={openGithub} className='shopping-icon'/>
-                            <WebIcon className='shopping-icon'/>
+                            <GitHubIcon onClick={() => openUrl("https://github.com/hennible0612/portfolio-web")} className='shopping-icon'/>
+                            <WebIcon onClick={() => openUrl("https://hennible0612.github.io/portfolio/#coverPage")} className='shopping-icon'/>
                         </div>
                     </div>
                     <div className="project-summery-container">

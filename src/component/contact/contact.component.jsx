@@ -16,8 +16,8 @@ const ContactPage = () => {
     return (
         <article className='article '>
 
-            <h3>Contact & Link</h3>
             <div className='contact-container'>
+                <h3 className="word">Contact & Link</h3>
 
                 <GitHubSquare onClick={() => openUrl("https://github.com/hennible0612/MangoTang")} className='icon'/>
                 <BlogIcon onClick={()=>openUrl("https://blog.naver.com/ghdtjddn0612")} className='icon'/>
