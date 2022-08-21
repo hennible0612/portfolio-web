@@ -1,4 +1,4 @@
-import './project.styles.scss'
+import './mangotang-project.styles.scss'
 import SimpleImageSlider from "react-simple-image-slider";
 import pay from '../../assets/mangoTang/결제하기.png'
 import login from '../../assets/mangoTang/로그인.png'
@@ -15,7 +15,7 @@ import {ReactComponent as WebIcon} from "../../assets/web.svg";
 
 import Gallery from "../gallery/gallery.component";
 
-const Project = () => {
+const MangoTangProject = () => {
     const url = "https://github.com/hennible0612/MangoTang"
     const openGithub = () => {
         window.open(url, '_blank').focus();
@@ -90,4 +90,4 @@ const Project = () => {
     );
 }
 
-export default Project;
+export default MangoTangProject;

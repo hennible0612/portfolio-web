@@ -2,9 +2,9 @@ import home from "../../assets/portfolio.png";
 import {ReactComponent as GitHubIcon} from "../../assets/github.svg";
 import {ReactComponent as WebIcon} from "../../assets/web.svg";
 import {ReactComponent as Check} from "../../assets/check-solid.svg";
-import './portfolio.styles.scss'
+import './portfolio-project.styles.scss'
 
-const Portfolio = () => {
+const PortfolioProject = () => {
     const openUrl = (url) => {
         window.open(url, '_blank').focus();
     }
@@ -54,4 +54,4 @@ const Portfolio = () => {
         </article>
     );
 };
-export default Portfolio;
+export default PortfolioProject;

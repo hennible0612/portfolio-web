@@ -1,8 +1,8 @@
 import Stars from '../../assets/stars.jpg'
-import './about-me.styles.scss'
+import './about-me-page.styles.scss'
 import {Fragment} from "react";
 
-const AboutMe = () => {
+const AboutMePage = () => {
     return (
         <Fragment>
         <article className='article '>
@@ -21,4 +21,4 @@ const AboutMe = () => {
     )
 };
 
-export default AboutMe;
+export default AboutMePage;

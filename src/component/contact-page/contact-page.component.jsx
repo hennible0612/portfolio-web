@@ -2,7 +2,7 @@
 import {ReactComponent as GitHubSquare} from "../../assets/github_square.svg";
 import {ReactComponent as BlogIcon} from "../../assets/naver_blog.svg";
 import {ReactComponent as EmailIcon} from "../../assets/email.svg";
-import './contact.styles.scss'
+import './contact-page.styles.scss'
 
 const ContactPage = () => {
 

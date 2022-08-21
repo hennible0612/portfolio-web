@@ -3,12 +3,10 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import './home.styles.css'
 
 import CoverPage from "../../component/cover-page/cover-page.component";
-import AboutMe from "../../component/about-me/about-me.component";
-import Project from "../../component/project/project.component";
-import ContactPage from "../../component/contact/contact.component";
-import Skills from "../../component/skills/skills.component";
-import Portfolio from "../../component/portfolio/portfolio.component";
-
+import AboutMePage from "../../component/about-me-page/about-me-page.component";
+import ContactPage from "../../component/contact-page/contact-page.component";
+import MangoTangProject from "../../component/project/mangotang-project.component";
+import PortfolioProject from "../../component/portfolio-project/portfolio-project.component";
 const Menu = () => (
     <div
         className="menu"
@@ -52,17 +50,17 @@ const Home = () => (
                             <CoverPage/>
                         </div>
                         <div className="section">
-                            <AboutMe />
+                            <AboutMePage />
                         </div>
                         {/*<div className="section">*/}
-                        {/*    <Skills />*/}
+                        {/*    <SkillsPage />*/}
                         {/*</div>*/}
                         <div className="section">
                             <div className="slide">
-                                <Project />
+                                <MangoTangProject />
                             </div>
                             <div className="slide">
-                                <Portfolio />
+                                <PortfolioProject />
                             </div>
                         </div>
                         <div className="section">
